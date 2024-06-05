@@ -42,6 +42,13 @@ const Contact: NextPage = () => {
           {/* Contact Form */}
           <div className="row">
             <form className="contact-form padd-15">
+              <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+
+            <!-- Custom URL -->
+<input type="hidden" name="redirect" value="https://raselshikdar.is-a.dev/success.html">
+
+    <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="3cede0c4-5f80-4b97-a890-e53e06bcdffc">
               <div className="row">
                 <div className="form-item col-6 padd-15">
                   <div className="form-group">
