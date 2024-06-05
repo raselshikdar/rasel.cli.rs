@@ -41,10 +41,7 @@ const Contact: NextPage = () => {
           </div>
           {/* Contact Form */}
           <form action="https://api.web3forms.com/submit" method="POST">
-            {/* Custom URL */}
 <input type="hidden" name="redirect" value="https://rasel.is-a.dev/success.html">
-
-  {/* Replace with your Access Key */}
     <input type="hidden" name="access_key" value="3cede0c4-5f80-4b97-a890-e53e06bcdffc">
           <div className="row">
             <form className="contact-form padd-15">
