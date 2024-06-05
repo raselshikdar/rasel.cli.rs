@@ -15,12 +15,12 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Your name a <span>Your Expertise</span>
+                    I am Rasel Shikdar, a <span>Front-End Web Developer.</span>
                   </h2>
                   <p>
-                    Hi! My name is Your Name. I am a your expertise, and I am
+                    Hi! My name is Rasel Shikdar. I am a Front-End Web Developer, and I am
                     very passionate and dedicated to my work. With 1 years
-                    experience as a your expertise, I have acquired the skills and
+                    experience as a web developer, I have acquired the skills and
                     knowledge necessary to make your project a success. I enjoy
                     every step of the design process, from discussion and
                     collaboration.
@@ -32,12 +32,12 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="info-item padd-15">
                       <p>
-                        Website : <span>www.urfolio.vercel.app</span>
+                        Website : <span>https://rasel.cli.rs</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Email : <span>your@email.com</span>
+                        Email : <span>info@rasel.work.gd</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
