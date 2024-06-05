@@ -8,7 +8,7 @@ export default async function Home() {
           <div className="intro">
             <img
               src="/imgs/alsiam.png"
-              alt="Al Siam Profile"
+              alt="Rasel Shikdar's Profile"
               className="shadow-dark"
             />
             <h1>Rasel Shikdar</h1>
