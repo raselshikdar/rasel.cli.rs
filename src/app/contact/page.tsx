@@ -42,6 +42,7 @@ const Contact: NextPage = () => {
           {/* Contact Form */}
           <div className="row">
             <form className="contact-form padd-15" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" className="redirect" value="https://rasel.cli.rs/success.tsx">
               <div className="row">
                 <div className="form-item col-6 padd-15">
                   <div className="form-group">
