@@ -24,7 +24,7 @@ const Sidebar = () => {
       <div className="aside-inner">
         <div className="logo">
           <Link href="/" onClick={handleClose}>
-            Logo
+            RS
           </Link>
         </div>
         <ul className="nav">
@@ -73,8 +73,8 @@ const Sidebar = () => {
         </ul>
         <div className="copyright">
           Created with ❤️ By{" "}
-          <a href="http://alsiam.com" target="_blank" rel="noopener noreferrer">
-            Al Siam
+          <a href="http://rasel.is-a.dev" target="_blank" rel="noopener noreferrer">
+            Rasel Shikdar
           </a>
         </div>
       </div>
