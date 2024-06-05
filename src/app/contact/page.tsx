@@ -17,7 +17,7 @@ const Contact: NextPage = () => {
                 <i className="fa fa-map-marker" />
               </div>
               <h4>Address</h4>
-              <p>Your Address, City</p>
+              <p>Tangail, Dhaka, BD</p>
             </div>
             {/* contact-info-item Ended */}
             {/* contact-info-item */}
@@ -25,8 +25,8 @@ const Contact: NextPage = () => {
               <div className="icon">
                 <i className="fa fa-phone" />
               </div>
-              <h4>Call Us On</h4>
-              <p>+99 **********</p>
+              <h4>Call Me On</h4>
+              <p>+880 969 605 1484</p>
             </div>
             {/* contact-info-item Ended */}
             {/* contact-info-item */}
@@ -35,7 +35,7 @@ const Contact: NextPage = () => {
                 <i className="fa fa-envelope" />
               </div>
               <h4>Email</h4>
-              <p>your@email.com</p>
+              <p>info@rasel.work.gd</p>
             </div>
             {/* contact-info-item Ended */}
           </div>
