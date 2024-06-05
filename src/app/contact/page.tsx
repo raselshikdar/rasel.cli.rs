@@ -41,7 +41,7 @@ const Contact: NextPage = () => {
           </div>
           {/* Contact Form */}
           <div className="row">
-            <form className="contact-form padd-15" action="https://api.web3forms.com/submit" method="POST" formData="access_key" value="3cede0c4-5f80-4b97-a890-e53e06bcdffc">
+            <form className="contact-form padd-15" action="https://api.web3forms.com/submit" method="POST">
               <div className="row">
                 <div className="form-item col-6 padd-15">
                   <div className="form-group">
