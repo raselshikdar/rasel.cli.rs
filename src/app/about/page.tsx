@@ -52,7 +52,7 @@ const About: NextPage = () => {
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        City : <span>Tangail, Dhaka, BD</span>
+                        City : <span>Tangail, Dhaka</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
