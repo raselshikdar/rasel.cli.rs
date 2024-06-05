@@ -15,7 +15,7 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Rasel Shikdar, a <span>Front-End Web Developer.</span>
+                    I am Rasel Shikdar, <span>a Front-End Web Developer.</span>
                   </h2>
                   <p>
                     Hi! My name is Rasel Shikdar. I am a Front-End Web Developer, and I am
@@ -42,17 +42,17 @@ const About: NextPage = () => {
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Degree : <span>SSC</span>
+                        Degree : <span>Post Graduated</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Phone : <span>+99 ********</span>
+                        Phone : <span>+880 969 605 1484</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        City : <span>Your City</span>
+                        City : <span>Tangail, Dhaka, BD</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -71,7 +71,7 @@ const About: NextPage = () => {
                         Download CV
                       </a>
                       <a
-                        href="#contact"
+                        href="https://t.me/rasel597"
                         data-section-index={0}
                         className="btn hire-me"
                       >
