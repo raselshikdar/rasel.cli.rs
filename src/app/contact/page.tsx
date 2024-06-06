@@ -1,29 +1,8 @@
-export default function Contact() {
-      async function handleSubmit(event) {
-          event.preventDefault();
-          const formData = new FormData(event.target);
+import type { NextPage } from "next";
 
-          formData.append("access_key", "3cede0c4-5f80-4b97-a890-e53e06bcdffc");
-
-          const object = Object.fromEntries(formData);
-          const json = JSON.stringify(object);
-
-          const response = await fetch("https://api.web3forms.com/submit", {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-                Accept: "application/json"
-              },
-              body: json
-          });
-          const result = await response.json();
-          if (result.success) {
-              console.log(result);
-          }
-      }
-
-    return (
-      <>
+const Contact: NextPage = () => {
+  return (
+    <>
       <section className="contact section" id="contact">
         <div className="container">
           <div className="row">
