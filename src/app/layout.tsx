@@ -12,8 +12,8 @@ import ThemeSwitch from "@/components/panel/ThemeSwitch";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "urFolio - Portfolio web",
-  description: "urFolio - a Open Source portfolio web application",
+  title: "Rasel Shikdar - Portfolio web",
+  description: "rasel.cli.rs - a Open Source portfolio web application about Rasel Shikdar",
 };
 
 export default function RootLayout({
