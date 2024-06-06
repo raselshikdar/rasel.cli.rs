@@ -1,8 +1,4 @@
-import type { NextPage } from "next";
-
-const Contact: NextPage = () => {
-  
-      export default function Contact() {
+export default function Contact() {
       async function handleSubmit(event) {
           event.preventDefault();
           const formData = new FormData(event.target);
@@ -26,8 +22,11 @@ const Contact: NextPage = () => {
           }
       }
 
-    return (
-      <>
+import type { NextPage } from "next";
+
+const Contact: NextPage = () => {
+  return (
+    <>
       <section className="contact section" id="contact">
         <div className="container">
           <div className="row">
@@ -66,7 +65,7 @@ const Contact: NextPage = () => {
           </div>
           {/* Contact Form */}
           <div className="row">
-            <form className="contact-form padd-15" action="https://api.web3forms.com/submit" method="POST">
+            <form className="contact-form padd-15">
               <div className="row">
                 <div className="form-item col-6 padd-15">
                   <div className="form-group">
