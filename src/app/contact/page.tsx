@@ -22,11 +22,8 @@ export default function Contact() {
           }
       }
 
-import type { NextPage } from "next";
-
-const Contact: NextPage = () => {
-  return (
-    <>
+    return (
+      <>
       <section className="contact section" id="contact">
         <div className="container">
           <div className="row">
