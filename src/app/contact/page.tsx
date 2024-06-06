@@ -1,8 +1,7 @@
 import type { NextPage } from "next";
 
 const Contact: NextPage = () => {
-  return (
-    <>
+  
       export default function Contact() {
       async function handleSubmit(event) {
           event.preventDefault();
