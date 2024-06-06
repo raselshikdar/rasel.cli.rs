@@ -24,12 +24,12 @@ function contact() {
 };
 
 
-const form = document.querySelector(".main-contact-form");
-const fullName = document.getElementById("input-name");
-const email = document.getElementById("input-email");
-const phone = document.getElementById("input-phone");
-const subject = document.getElementById("input-subject");
-const mess = document.getElementById("input-message");
+const form = document.querySelector("contact-form padd-15");
+const fullName = document.getElementById("text");
+const email = document.getElementById("email");
+const phone = document.getElementById("phone");
+const subject = document.getElementById("text");
+const mess = document.getElementById("text");
 
 function sendEmail() {
   const bodyMessage = `
